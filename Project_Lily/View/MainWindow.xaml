@@ -12,12 +12,12 @@
     <Grid>
         <!-- 화면 고정 UI: 버튼 등 -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
-            <Button Content="UserControl1" Click="ShowUC1_Click"/>
-            <Button Content="UserControl2" Click="ShowUC2_Click"/>
-            <Button Content="UserControl3" Click="ShowUC3_Click"/>
-            <Button Content="UserControl4" Click="ShowUC4_Click"/>
-            <Button Content="UserControl5" Click="ShowUC5_Click"/>
-            <Button Content="UserControl6" Click="ShowUC6_Click"/>
+            <Button Content="Lily" Width="75" Click="ShowUC1_Click"/>
+            <Button Content="Theranos" Width="75" Click="ShowUC2_Click"/>
+            <Button Content="Aquarius" Width="75" Click="ShowUC3_Click"/>
+            <Button Content="Silphy" Width="75" Click="ShowUC4_Click"/>
+            <Button Content="Inferna" Width="75" Click="ShowUC5_Click"/>
+            <Button Content="Mondoshine" Width="75" Click="ShowUC6_Click"/>
             <!--Button Content="UserControl6" Click="ShowUC6_Click"/-->
         </StackPanel>
 
