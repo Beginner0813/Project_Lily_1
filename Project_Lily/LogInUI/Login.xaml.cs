@@ -17,6 +17,7 @@ using Microsoft.Win32;
 using Project_Lily.LogInUI;
 using System.Data.SQLite;
 using System.Data.Entity;
+using Project_Lily.View;
 
 namespace Project_Lily
 {
@@ -102,8 +103,12 @@ namespace Project_Lily
                             }
                             else
                             {
-                                // 일반 사용자 화면 이동(게임 시작)
-                                _mainWindow.Navigate(new FindPassword(_mainWindow));
+                                // 일반 사용자 화면 이동 (View 폴더 안 MainWindow)
+                                Project_Lily.View.MainWindow main = new Project_Lily.View.MainWindow();
+                                main.Show();
+
+                                // 로그인 창(Window) 닫기
+                                _mainWindow.Close();
                             }
                         }
                         else
